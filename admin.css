@@ -1,0 +1,505 @@
+/* CSS thuần túy thay thế Tailwind */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* Màu nền xanh nhạt cho toàn bộ trang */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg-white {
+    background-color: #ffcccb; /* Màu hồng nhạt */
+    border-radius: 8px; /* Thêm bo góc cho các khối */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Thêm bóng cho các khối */
+    transition: box-shadow 0.3s ease; /* Hiệu ứng chuyển động cho bóng */
+}
+.bg-white1 {
+    background-color: #fff8e1; 
+    border-radius: 8px; /* Thêm bo góc cho các khối */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Thêm bóng cho các khối */
+    transition: box-shadow 0.3s ease; /* Hiệu ứng chuyển động cho bóng */
+}
+th {
+    background-color: #e1f5fe; /* Màu nền cho thẻ th */
+    color: #333; /* Màu chữ cho thẻ th */
+    padding: 12px; /* Thêm khoảng cách cho các ô tiêu đề */
+    text-align: center; /* Căn giữa cho nội dung */
+    border-bottom: 2px solid #2196F3; /* Đường viền dưới cho tiêu đề */
+}
+
+td {
+    background-color: #ffffff; /* Màu nền cho các ô dữ liệu */
+    color: #333; /* Màu chữ cho các ô dữ liệu */
+}
+
+tr:hover td {
+    background-color: #f5f5f5; /* Màu nền khi di chuột qua hàng */
+}
+.bg-white2 {
+    background-color: #fce4ec; /* Màu hồng nhạt cho nền */
+    border-radius: 8px; /* Thêm bo góc cho các khối */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Thêm bóng cho các khối */
+    transition: box-shadow 0.3s ease; /* Hiệu ứng chuyển động cho bóng */
+}
+
+.bg-white:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Tăng bóng khi hover */
+}
+
+.text-gray-600 {
+    color: #424242; /* Màu chữ tối hơn */
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.p-4 {
+    padding: 16px;
+}
+
+.p-6 {
+    padding: 24px;
+}
+
+.p-3 {
+    padding: 12px;
+}
+
+.rounded-lg {
+    border-radius: 8px;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-gray-700 {
+    color: #333333; /* Màu chữ tối hơn */
+}
+
+.mt-6 {
+    margin-top: 24px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.mr-4 {
+    margin-right: 16px;
+}
+
+.border-b {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.table th {
+    text-align: center;
+    background-color: #1976d2; /* Màu xanh đậm cho tiêu đề bảng */
+    font-weight: bold; /* Đậm tiêu đề bảng */
+    color: #ffffff; /* Màu chữ trắng cho tiêu đề */
+}
+
+.table td {
+    text-align: center;
+    color: #424242; /* Màu chữ tối cho các ô dữ liệu */
+    background-color: #bbdefb; /* Màu nền nhẹ cho các ô dữ liệu */
+}
+
+/* Flexbox Layouts */
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-6 {
+    gap: 24px;
+}
+
+/* Classes for icons */
+.fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+/* Style for icons */
+.bg-blue-500 {
+    background-color: #2196f3; /* Màu xanh dương */
+}
+
+.bg-green-500 {
+    background-color: #4caf50; /* Màu xanh lá */
+}
+
+.bg-yellow-500 {
+    background-color: #ffeb3b; /* Màu vàng */
+}
+
+.bg-red-500 {
+    background-color: #f44336; /* Màu đỏ */
+}
+
+.text-white {
+    color: white;
+}
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+/* Custom spacing for buttons */
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.user-dropdown {
+    padding-top: 16px;
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+/* Custom classes for table button styling */
+.table-button {
+    background-color: #4caf50; /* Màu xanh lá cho nút */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển màu */
+}
+
+.table-button:hover {
+    background-color: #388e3c; /* Màu xanh lá đậm hơn khi hover */
+}
+
+/* Flexbox center align for small screen */
+@media (max-width: 767px) {
+    .grid-cols-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* sidebar.css */
+.sidebar {
+    width: 200px;
+    background-color: #c5cae9; /* Xanh pastel */
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Thêm bóng cho sidebar */
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px; /* Thêm bo góc cho các item */
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sidebar-item:hover {
+    background-color: #b3e5fc; /* Màu nền khi hover */
+    color: #0277bd; /* Màu chữ khi hover */
+    cursor: pointer;
+}
+
+.sidebar-item.active {
+    background-color: #bbdefb; /* Màu nền cho item đang hoạt động */
+    color: #0277bd; /* Màu chữ cho item đang hoạt động */
+}
+
+.sidebar-item + .sidebar-item {
+    margin-top: 10px;
+}
+
+.column {
+    flex: auto;
+}
+
+/* Avatar button */
+.avatar {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #f7fafc;
+    transition: background-color 0.2s ease;
+}
+
+/* Hiệu ứng hover cho avatar */
+.avatar:hover {
+    background-color: #e2e8f0;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none; /* Mặc định ẩn dropdown */
+    position: absolute;
+    right: 0;   
+    width: 200px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 10px;
+}
+
+/* Hiển thị dropdown khi có class "show" */
+.dropdown-menu.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Các item trong dropdown */
+.dropdown-item {
+    display: block;
+    padding: 8px 16px;
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #b3e5fc; /* Hiệu ứng hover cho item dropdown */
+}
+
+.min-w-full {
+    width: 100%;
+}
+
+.min-h-screen {
+    height: 100%;
+}
+
+/* Thêm màu sắc cho các nút và tiêu đề */
+.button-primary {
+    background-color: #6200ea; /* Màu tím cho nút chính */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #3700b3; /* Màu tím đậm hơn khi hover */
+}
+
+.header {
+    background-color: #1976d2; /* Màu xanh đậm cho tiêu đề */
+    color: white; 
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #c62828; /* Màu đỏ đậm cho footer */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Thêm màu sắc cho các thẻ thông báo */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #a5d6a7; /* Màu xanh lá cho thông báo thành công */
+    color: #1b5e20;
+}
+
+.alert-danger {
+    background-color: #ef9a9a; /* Màu đỏ cho thông báo lỗi */
+    color: #b71c1c;
+}
+
+.alert-warning {
+    background-color: #ffe082; /* Màu vàng cho cảnh báo */
+    color: #f57f17;
+}
+
+.alert-info {
+    background-color: #81d4fa; /* Màu xanh da trời cho thông báo thông tin */
+    color: #01579b;
+}
+
+/* Thêm màu cho các thẻ div */
+.div-highlight {
+    background-color: #fff3e0; /* Màu nền nhạt cho các thẻ div */
+    border: 1px solid #ffcc80; /* Đường viền màu cam nhạt */
+    border-radius: 8px; /* Bo góc cho các thẻ div */
+    padding: 10px; /* Padding cho các thẻ div */
+}
+
+/* Thêm màu cho các nút trong sidebar */
+.sidebar-button {
+    background-color: #64b5f6; /* Màu xanh nhạt cho nút trong sidebar */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+    background-color: #42a5f5; /* Màu xanh đậm hơn khi hover */
+}
+/* Thêm hiệu ứng gradient cho màu nền */
+.bg-white {
+    background: linear-gradient(135deg, #ffcccb, #ffc1e3); /* Gradient từ hồng nhạt đến hồng đậm */
+}
+
+.bg-white1 {
+    background: linear-gradient(135deg, #fff8e1, #fff4c4); /* Gradient từ màu kem nhạt đến vàng nhạt */
+}
+
+.bg-white2 {
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0); /* Gradient từ hồng nhạt đến hồng đậm */
+}
+
+/* Thêm hiệu ứng text shadow cho tiêu đề */
+.header {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Bóng mờ cho tiêu đề */
+}
+
+/* Thêm hiệu ứng hover cho nút */
+.button-primary:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi hover */
+}
+
+/* Thêm hiệu ứng hover cho các thẻ div */
+.div-highlight:hover {
+    transform: translateY(-5px); /* Dịch chuyển lên trên khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bóng lớn hơn khi hover */
+}
+
+/* Thêm hiệu ứng cho các item trong sidebar */
+.sidebar-item:hover {
+    transform: translateX(5px); /* Dịch chuyển sang phải khi hover */
+}
+
+/* Thêm hiệu ứng cho các nút trong sidebar */
+.sidebar-button:hover {
+    transform: translateY(-3px); /* Dịch chuyển lên trên khi hover */
+}
+
+/* Thêm hiệu ứng cho các ô dữ liệu trong bảng */
+.table td:hover {
+    background-color: #e3f2fd; /* Thay đổi màu nền khi hover */
+    transform: scale(1.02); /* Phóng to nhẹ khi hover */
+}
+
+/* Thêm hiệu ứng fade in cho các alert */
+.alert {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
